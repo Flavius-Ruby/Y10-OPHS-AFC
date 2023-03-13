@@ -1,0 +1,18 @@
+#variables 02
+
+name1="Andrei"
+name2="jah-mali"
+name3="jahamahal"
+name4="jerome"
+name5="jaquan"
+
+print(name1)
+print(name2)
+print(name3)
+print(name4)
+print(name5)
+
+town1="Croydon"
+town2="Addiscombe"
+town3="South Norwood"
+town4= "Edgware"
