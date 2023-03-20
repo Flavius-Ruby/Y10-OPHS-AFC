@@ -1,22 +1,23 @@
 age=input("What is your age?") 
+#denote a unique value to a variable by using input to allow for any numerical value
 print("Your age is:" ,age)
+#refer to the variable when trying to use the numerical value
 print("")
 print("Well hello", age ,"year old! I have a couple questions for you.")
 print("")
 number1=input("enter one number:")
 number2=input("enter another number:")
 sum=int(number1)+int(number2)
+#the built in function "sum" requires you to label your variables as integers 
 print("the sum is:",sum)
-print("")
-print("Correct?")
-input("Yes or No?!?  I find your silence rude!")
-total=float(sum)/2
-print("Therefore the average is:", total)
+total=sum/2
+#use / as the symbol to perform a division
+print("And the average is:", total)
 print("")
 print("So then why don't we use", number1, "and", number2)
 print("")
 print("We'll use them as the height and width of out rectangle, and we will find the area.")
-number1= int(input)
-number2= int(inpit)
 total=int(number1)*int(number2) 
-print("So then our area is:", total2)
+#use * as the symbol to perform a multiplication
+print("")
+print("So then our area is:", total)
