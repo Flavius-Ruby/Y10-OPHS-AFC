@@ -5,10 +5,10 @@ print("Your age is:" ,age)
 print("")
 print("Well hello", age ,"year old! I have a couple questions for you.")
 print("")
-number1=input("enter one number:")
-number2=input("enter another number:")
-sum=int(number1)+int(number2)
-#the built in function "sum" requires you to label your variables as integers 
+number1=int(input("enter one number:"))
+number2=int(input("enter another number:"))
+#denote your inputted numbers as integers using the "int" function
+sum=number1+number2
 print("the sum is:",sum)
 total=sum/2
 #use / as the symbol to perform a division
