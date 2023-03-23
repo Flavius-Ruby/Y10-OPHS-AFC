@@ -8,3 +8,21 @@ RealFloat = 3.1415926535
 Interger = 49
 Boolean = True 
 String = "123abc%&"
+
+
+#Using data types with input
+
+name = str(input("What is your name? :"))
+print(name)
+
+age = int(input("How old are you? :"))
+print(age)
+
+price = float(input("What is the price? :"))
+print("£",price)
+
+character = str(input("Enter a character :"))
+print(character)
+
+name2 = str(input("Wait, what was your name again? :"))
+print("Hello", name2)
