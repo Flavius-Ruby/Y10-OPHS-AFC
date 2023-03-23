@@ -1,0 +1,21 @@
+print("Welcome to my masterful MAD-LIB!")
+print("")
+print("Please answer the questions accordiningly :)")
+print("")
+
+name1 = input("Enter the name of a person, animal, or fictional character :")
+verb1 = input("Enter a present-tense verb :")
+number1 = int(input("Enter a number (maximun of two digits) :"))
+name2 = input("Enter another name of a person, animal, or fictional character :")
+verb2 = input("Enter another present-tense verb :")
+number2 = int(input("Enter a number (maximum of two digits) :"))
+print("")
+print(name1, "used", verb1,"and dealt",number1,"damage to",name2)
+print("")
+total = 100-number1
+print(name2,"suffered",number1,"hitpoints and has",total,"hitpoints left!")
+print("")
+print(name2,"used",verb2,"back and dealt",number2,"damage to",name1)
+print("")
+total2 = 100-number2
+print(name1,"suffered",number2,"hitpoints and has",total2,"hitpoints left!")
