@@ -1,6 +1,6 @@
 #Selection explained 1
 
-SkyColour = ("blue")
+SkyColour=str(input("Enter a colour:")) 
 
 if SkyColour == "blue" :
   print("Hi, the code is yellow")
@@ -14,4 +14,4 @@ Webtoon=str(input("What is your favourite webtoon? "))
 if Webtoon==("Tower of God"):
   print("Nice choice! Me too!")
 
-else: print("BOOO!Its definetely Tower of God!!!")
+else: print(5("BOOO!Its definetely Tower of God!!!"))
