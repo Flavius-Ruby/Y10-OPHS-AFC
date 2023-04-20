@@ -1,0 +1,17 @@
+#Selection explained 1
+
+SkyColour = ("blue")
+
+if SkyColour == "blue" :
+  print("Hi, the code is yellow")
+  
+print("Bon journee")
+
+#Selection explained 2 
+
+Webtoon=str(input("What is your favourite webtoon? "))
+
+if Webtoon==("Tower of God"):
+  print("Nice choice! Me too!")
+
+else: print("BOOO!Its definetely Tower of God!!!")
