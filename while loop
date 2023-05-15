@@ -1,17 +1,29 @@
 #Challenge1
 
-number=69
+total=0
 
-while number !=0:
-   number = number + 1
-   print("the number is", number)
-   
-#Challenge02
-
-answer="N"
-
-while answer!="Y": 
-  print("are we there yet?")
-  answer=input("Please respond Y or N")
+while total<50:
+  number=int(input("Enter a number"))
+  total=total+number
+  print("The total is",total)
   
-print("Yay! We are there!")
+#Challenge2
+
+number=0
+
+while number<5:
+  number=int(input("Enter a number"))
+  
+  if number>5:
+    print("The last number you entered was",number)
+
+#Challenge3-not complete
+
+number=int(input("Enter a number"))
+total=number
+letter="y"
+
+while:
+  number2=int(input("Enter another number"))
+  a=number=number2
+  input("Would you like to add another number")
