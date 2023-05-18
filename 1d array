@@ -1,0 +1,26 @@
+#1-dimensional array
+
+student=["JJ","KK","Kami","Dan","Benchod"]
+print(student)
+print("")
+student.insert(0,"Elena")
+print("")
+print(student)
+student.append("Alex")
+print("")
+print(student)
+print("")
+del student [3]
+print(student)
+
+car=[]
+
+a=input("Enter the name of a car")
+b=input("Enter the name of a car")
+c=input("Enter the name of a car")
+
+car.append(a)
+car.append(b)
+car.append(c)
+
+print(car)
