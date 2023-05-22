@@ -1,0 +1,16 @@
+a=1
+b=2
+
+stringA= str(a) #casting
+stringB= str(b) #casting
+
+c= stringA + stringB
+
+print(c)
+
+#since you cannot add string,
+#the plus sign is now a 
+#concatination sign
+#(squasahes string together)
+
+
