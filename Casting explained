@@ -4,6 +4,9 @@ b=2
 stringA= str(a) #casting
 stringB= str(b) #casting
 
+#casting is coverting one
+#data type to another
+
 c= stringA + stringB
 
 print(c)
