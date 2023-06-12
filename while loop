@@ -17,13 +17,49 @@ while number<5:
   if number>5:
     print("The last number you entered was",number)
 
-#Challenge3-not complete
+#Challenge3
 
 number=int(input("Enter a number"))
 total=number
 letter="y"
 
-while:
+while letter=="y":
   number2=int(input("Enter another number"))
-  a=number=number2
-  input("Would you like to add another number")
+  total=total+number2
+  letter=input("Would you like to add another number")
+
+print(total)
+
+#Challenge4
+
+
+control=1
+count=0
+
+while control==1:
+  name=input("Who would you like to invite to the party?")
+  print(name, "has now been invited.")
+  count=count+1
+  A=input("Would you like to ivite soembody else? Answer with y/n.")
+  if A=="y":
+    control=1
+  else:
+    control=2
+      
+print(count)
+
+#Challenge 5
+
+compnum=50
+
+num1=int(input("Enter a number:"))
+
+count=1
+
+while num1!=compnum:
+  if num1>compnum:
+    print("Too High!")
+  else: 
+    print("Too Low!")
+  answer=input("Do you want to have another guess?")
+  if answer=="y"
