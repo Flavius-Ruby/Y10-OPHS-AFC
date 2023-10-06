@@ -1,0 +1,18 @@
+#carpet cost
+
+
+#subprograms
+def Carpet_cost(width,length,price):
+  carpet=width*length*price
+  FITTING=50
+  underlay=width*length*2
+  grippers=width+length
+  return carpet+FITTING+underlay+grippers
+
+
+
+#mainprogram
+width=int(input("Enter the width of your carpet:"))
+length=int(input("Enter the length of your carpet"))
+price=float(input("Enter the price of your carpet per m^2:"))
+print("£",Carpet_cost(width,length,price))
