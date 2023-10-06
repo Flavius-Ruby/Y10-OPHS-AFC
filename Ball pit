@@ -1,0 +1,25 @@
+#ball pit-not complete and has errors
+
+
+
+
+#subprograms
+def ball_pit_volume(ball_pit_radius, ball_pit_height):
+ pi=3.1415926535
+ volume=ball_pit_radius*ball_pit_radius*ball_pit_height*pi
+return ball_pit_volume
+
+def ball_size(ball_radius):
+ pi=3.1415926535
+ volumeB=4/3*ball_radius*ball_radius*ball_radius*pi
+return ball_size
+
+
+#mainprograms
+
+ball_pit_radius=int(input("What is the ball pit radius:"))
+ball_pit_height=int(input("What is the ball pit height:"))
+ball_radius=int(input("What is the ball radius:"))
+print (ball_pit_volume(ball_pit_radius,ball_pit_height)/ball_size(ball_radius))
+
+
