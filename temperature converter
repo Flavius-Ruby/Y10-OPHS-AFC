@@ -1,0 +1,33 @@
+#Temperature converter 
+#----------------------
+
+#subprograms
+#----------------------
+
+def C2Fconverter(temp):
+  result=int(round(9*temp/5+32))
+  
+  return(result)
+
+def F2Cconverter(temp):
+  result=int(round((temp-32)*5/9))
+  
+  return(result)
+
+
+#main program
+#----------------------
+temp=int(input("Enter the digits of the value:"))
+units=input("Enter the unit of temperature")
+
+if units.upper()=="C":
+  result=C2Fconverter(temp)
+  exclaimer="Fahrenheit"
+elif units.upper()=="F":
+  result=F2Cconverter(temp)
+  exclaimer="Celcius"
+else:
+  print("Input proper units")
+  quit()
+  
+print("The temperature in", exclaimer,"is",result,"degrees")
