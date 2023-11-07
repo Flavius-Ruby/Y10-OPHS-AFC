@@ -1,0 +1,16 @@
+# Merry-go-round
+
+# -------------------------
+# Subprograms
+# -------------------------
+def heightCalc(childHeight):
+  if childHeight>91:
+    print("Your child is too large for this ride!")
+  else:
+    print("Height.OK")
+
+# -------------------------
+# Main program
+# -------------------------
+childHeight=float(input("Enter your child's height:"))
+print(heightCalc(childHeight))
