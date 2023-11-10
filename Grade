@@ -69,7 +69,7 @@ mark=int(input("Enter your mark:"))
 print(mark2grade(mark))
  
  
-if mark2grade=="Your grade is 9":
+if mark2grade(mark)=="Your grade is 9":
   print("You have achieved the maximum grade")
 else:
-  print("You need",marksUntilgrade(mark),"marks until the next grade.")
+  print("You need",marksUntilgrade(marks),)
