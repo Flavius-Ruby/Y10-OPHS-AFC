@@ -8,25 +8,25 @@
 
 def mark2grade(mark):
   if mark>=0 and mark<2:
-    return("Your grade is U")
+    return "Your grade is U"
   elif mark>=2 and mark<4:
-    return("Your grade is 1")
+    return "Your grade is 1"
   elif mark>=4 and mark<13:
-    return("Your grade is 2")
+    return "Your grade is 2"
   elif mark>=13 and mark<22:
-    return("Your grade is 3")
+    return "Your grade is 3"
   elif mark>=22 and mark<31:
-    return("Your grade is 4")
+    return "Your grade is 4"
   elif mark>=31 and mark<41:
-    return("Your grade is 5")
+    return "Your grade is 5"
   elif mark>=41 and mark<54:
-    return("Your grade is 6")
+    return "Your grade is 6"
   elif mark>=54 and mark<67:
-    return("Your grade is 7")
+    return "Your grade is 7"
   elif mark>=67 and mark<80:
-    return("Your grade is 8")
+    return "Your grade is 8"
   elif mark>=80 and mark<=100:
-    return("Your grade is 9")
+    return "Your grade is 9"
   else:
     print("Your input is invalid")
     quit()
@@ -38,25 +38,25 @@ def mark2grade(mark):
 
 def marksUntilgrade(mark):
   if mark>=0 and mark<2:
-    return(2-mark)
+    return 2-mark
   elif mark>=2 and mark<4:
-    return(4-mark)
+    return 4-mark
   elif mark>=4 and mark<13:
-    return(13-mark)
+    return 13-mark
   elif mark>=13 and mark<22:
-    return(22-mark)
+    return 22-mark
   elif mark>=22 and mark<31:
-    return(31-mark)
+    return 31-mark
   elif mark>=31 and mark<41:
-    return(41-mark)
+    return 41-mark
   elif mark>=41 and mark<54:
-    return(54-mark)
+    return 54-mark
   elif mark>=54 and mark<67:
-    return(67-mark)
+    return 67-mark
   elif mark>=67 and mark<80:
-    return(80-mark)
-  elif mark>=80 and mark<=100:
-    return("You have the heighest grade possible")
+    return 80-mark
+  elif mark>=80:
+    return("")
   else:
     print("Your input is invalid")
     quit()
@@ -67,4 +67,9 @@ def marksUntilgrade(mark):
 # -------------------------
 mark=int(input("Enter your mark:"))
 print(mark2grade(mark))
-print("You need",(marksUntilgrade(mark),"marks until the next grade."))
+ 
+ 
+if mark2grade=="Your grade is 9":
+  print("You have achieved the maximum grade")
+else:
+  print("You need",marksUntilgrade(mark),"marks until the next grade.")
