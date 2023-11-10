@@ -1,0 +1,43 @@
+# capital city
+
+# -------------------------
+# Subprograms
+# -------------------------
+
+#use this to check if the answer is right
+
+def answer_checker(country,city):
+  if country=="England" and city=="London":
+    return True
+  if country=="France" and city=="Paris":
+    return True
+  if country=="Spain" and city=="Madrid":
+    return True
+  else:
+    return False
+    
+#use this to ask the user to input the capital city
+
+def capitalCity():
+  correct = False
+  while not correct:
+    city=input("What is the capital of England?")
+    correct=answer_checker("England",city)
+  
+  correct=False 
+  while not correct:
+    city=input("What is the capital of France?")
+    correct=answer_checker("France",city)
+    
+  correct=False 
+  while not correct:
+    city=input("What is the capital of Spain?")
+    correct=answer_checker("Spain",city)
+
+
+
+# -------------------------
+# Main program
+# -------------------------
+capitalCity()
+print("The quiz is complete!")
