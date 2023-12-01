@@ -78,4 +78,4 @@ else:
 if mark2grade(mark)=="Your grade is 9":
   print("You have achieved the maximum grade")
 else:
-  print("You need",marksUntilgrade(marks),)
+  print("You need",marksUntilgrade(mark),)
