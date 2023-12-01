@@ -1,0 +1,35 @@
+# Bank(overdrwan or within limit) #NOT COMPLETE!!!!
+
+# -------------------------
+# Subprograms
+# -------------------------
+
+def calculatedraft(actual,limit):
+  
+  if actual>limit:
+   debt = actual - limit
+   message1 = "Dear {} {},".format(title,name)
+   message2 = ".Please be advised that your current overdraft is £{},".format(actual)
+   message3 = "which is in excess of your overdraft limit of £{0:.2f},".format(limit)
+   message4 = Please deposit funds of £", debt,"by 4pm today to avoid excess charges and interest.")
+  elif actual<=limit:
+    amountleft = limit - actual
+    print("Dear", title, name, ".We are pleased to inform you that your current overdraft of £", amountleft, "is within your authorised limit of £", limit, ".Have a nice day")
+  else:
+    print("Your input is not appropiate, please restart")
+    quit()
+    
+    
+    
+    
+    
+# -------------------------
+# Main program
+# -------------------------
+
+title = input("What is your title? e.g Mr, Ms, Mrs:")
+name = input("What is your name? :")
+actual = float(input("How much are you spending? :"))
+limit = float(input("How much money is in your account? :"))
+
+calculatedraft(actual, limit)
