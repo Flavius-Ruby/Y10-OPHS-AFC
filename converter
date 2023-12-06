@@ -3,6 +3,8 @@
 # -------------------------
 # Subprograms
 # -------------------------
+
+#denary into binary
 def den2bin(number):
   binary = ""
   while number>0:
@@ -11,8 +13,40 @@ def den2bin(number):
     number = number //2 
   return binary
   
+#denary into octuples
+def den2oct(number):
+  oct = ""
+  while number>0:
+    remainder = number % 8
+    oct = str(remainder) + oct
+    number = number //8 
+  return oct
   
-def hexadigit():
+#turns denary above 9 into hex digits
+def hexadigit(number):
   if number > 9:
-    chr (ord"A"+1)
+    chr (ord("A")+number-10)
+    return hex
+    
+#turning denary into a whole hexadecimal
+def den2hex(number, hexadigit, hex):
+  hex = ""
+  while number>9:
+   remainder = hexadigit(number)
+   hexa = str(remainder) + hexa
+  else:
+    while number>0:
+     remainder = number % 16
+     hexa = str(remainder) + hexa
+     number = number //16
   
+#-----------------
+
+#main programs
+
+#-----------------
+
+number = int(input("Input a number please :"))
+print("Your number in binary is :", den2bin(number))
+print("Your number in octuples is :", den2oct(number))
+print("Your number in hexadecimal is :", den2hex(number, hexadigit, hex))
