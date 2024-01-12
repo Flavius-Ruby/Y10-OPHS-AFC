@@ -1,0 +1,24 @@
+# names
+
+# -------------------------
+# Subprograms
+# -------------------------
+def namechecker(name):
+  if len(name) <= 5:
+    surname = input("Enter your surname :")
+    name = name + surname
+    
+    return name.upper()
+   
+  else:
+     
+    return name.lower()
+    
+# -------------------------
+# Main program
+# -------------------------
+
+
+name = input("Enter your name :")
+
+print(namechecker(name))
