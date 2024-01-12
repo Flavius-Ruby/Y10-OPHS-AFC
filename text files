@@ -1,0 +1,41 @@
+# text files
+
+# -------------------------
+# Subprograms
+# -------------------------
+
+    
+    
+# -------------------------
+# Main program
+# -------------------------
+myFile=open("productDetails.txt","a")
+
+prdId=input("Enter product ID (Enter done to end):")
+
+while (prdId!="done"):
+
+ prdName=input("Enter product Name:")
+
+ price=input("Enter price:")
+
+ myFile.write(prdId + "," + prdName + "," + price + "\n")
+
+ prdId=input("Enter product ID (Enter done to end):")
+
+myFile.close()
+
+
+
+
+
+
+ #the productDetails.txt
+ 
+110,Fire 7 tablet,50
+111,Samsung Galaxy Tab A,149
+112,Fire HD 8 tablet,80
+113,Fire HD 10 tablet,150
+114,Apple iPad,295
+115,Fire HD 8 Kids edition,130
+116,Huawei MediaPad T3,120
