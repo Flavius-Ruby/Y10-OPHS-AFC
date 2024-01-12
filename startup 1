@@ -1,0 +1,21 @@
+# startup 1 
+
+# -------------------------
+# Subprograms
+# -------------------------
+def fairpay(totalpeople,totalbill):
+  
+  moneyperperson = totalbill / totalpeople
+    
+  return moneyperperson
+# -------------------------
+# Main program
+# -------------------------
+
+totalbill = float(input("What was the total price for the bill? :"))
+
+totalpeople = int(input("How many people are there? :"))
+
+moneyperperson = 0
+
+print("Each person must pay £" ,fairpay(totalpeople , totalbill) )
