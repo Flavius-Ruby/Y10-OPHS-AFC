@@ -1,0 +1,5 @@
+# open()
+#two arguments necessary for open() function are :
+#filename : a string that consists of the file name, which can be absolute or relative to the current working directory
+#mode : this argument is used to specify the operation that we want to do on the file. The three basic modes are "r" for read , "W" for write and "a" for append. The argument is optional 
+# and is set to "r" by default.
