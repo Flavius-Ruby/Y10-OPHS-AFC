@@ -1,0 +1,30 @@
+# hours to minutes
+
+# -------------------------
+# Subprograms
+# -------------------------
+def mins2hours(mins):
+    hours = mins / 60
+    
+    return hours
+    
+def hours2mins(hours):
+    mins = hours * 60
+    
+    return mins
+# -------------------------
+# Main program
+# -------------------------
+
+hoursORmins = input("Are you converting into hours or minutes? :")
+
+
+if hoursORmins.upper() == "HOURS" :
+  mins = float(input("Enter the number of minutes you want to convert"))
+  print(mins2hours(mins),"hours")
+elif hoursORmins.upper() == "MINUTES" :
+  hours = float(input("Enter the number of hours you want to convert"))
+  print(hours2mins(hours),"minutes")
+else :
+  print("Your input is inva1id, please restart")
+  quit()
